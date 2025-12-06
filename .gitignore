@@ -39,3 +39,7 @@
 
 # debug information files
 *.dwo
+
+# Compiled files
+build
+release

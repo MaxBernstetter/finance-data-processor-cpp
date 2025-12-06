@@ -1,0 +1,37 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "release",
+            "displayName": "Optimised release build",
+            "binaryDir": "${sourceDir}/../build",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release",
+                "CMAKE_TOOLCHAIN_FILE": "${sourceDir}/../build/conan_toolchain.cmake",
+                "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+                "BUILD_TESTING": "OFF"
+            }
+        },
+        {
+            "name": "test",
+            "displayName": "Tests",
+            "binaryDir": "${sourceDir}/../build",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_TOOLCHAIN_FILE": "${sourceDir}/../build/conan_toolchain.cmake",
+                "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+                "BUILD_TESTING": "ON"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "release",
+            "configurePreset": "release"
+        },
+        {
+            "name": "test",
+            "configurePreset": "test"
+        }
+    ]
+}

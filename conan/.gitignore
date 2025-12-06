@@ -1,0 +1,8 @@
+cache
+*.sh
+remotes.json
+version.txt
+migrations/
+extensions/
+.conan.db
+settings.yml

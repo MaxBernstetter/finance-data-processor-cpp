@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "vadimcn.vscode-lldb",
+        "matepek.vscode-catch2-test-adapter",
+        "llvm-vs-code-extensions.vscode-clangd",
+        "notskm.clang-tidy",
+        "ms-vscode.cpptools-themes",
+        "bungcip.better-toml",
+        "ms-vscode.cmake-tools"
+    ]
+}

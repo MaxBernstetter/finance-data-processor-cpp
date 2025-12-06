@@ -1,0 +1,14 @@
+version: '3'
+tasks:
+  configure:*:
+    dir: cmake
+    vars:
+      PRESET: '{{index .MATCH 0}}'
+    desc: Configure CMake with the given preset
+    cmds:
+      - cmake --preset {{.PRESET}}
+
+  build:
+    desc: Build the project
+    cmds:
+      - cmake --build build

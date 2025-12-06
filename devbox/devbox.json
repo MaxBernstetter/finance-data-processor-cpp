@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.16.0/.schema/devbox.schema.json",
+  "packages": [
+    "clang@21.1.2",
+    "go-task@latest",
+    "clang-tools@21.1.2",
+    "conan@2.21.0",
+    "cmake@4.1.2",
+    "poetry@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "export CONAN_HOME=\"$(cd ${DEVBOX_PROJECT_ROOT}/.. && pwd)/conan\"",
+      "export PROJECT_ROOT=\"$(cd ${DEVBOX_PROJECT_ROOT}/.. && pwd)\""
+    ]
+  }
+}

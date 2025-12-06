@@ -1,0 +1,36 @@
+version: '3'
+includes:
+  conan: toolchain/taskfiles/conan.taskfile.yml
+  cmake: toolchain/taskfiles/cmake.taskfile.yml
+  proto:
+    dir: finance-proto-models
+    taskfile: finance-proto-models/Taskfile.yml
+  
+tasks:
+  clean:
+    desc: Clean build artifacts
+    cmds:
+      - rm -rf build/*
+  
+  rebuild:
+    desc: "Rebuild the current configuration"
+    cmds:
+      - task cmake:build
+      
+  build:*:
+    desc: "Compile and run the project [release|test]"
+    vars:
+      PRESET: '{{index .MATCH 0}}'
+    cmds:
+      - task: clean
+      - task: conan:install:{{.PRESET}}
+      - task: cmake:configure:{{.PRESET}}
+      - task: cmake:build
+  
+  release:
+    desc: "Generate a release for the project"
+    cmds:
+      - task: build:release
+      - mkdir -p release
+      - mv build/finance-data-processor release/
+      - task: clean

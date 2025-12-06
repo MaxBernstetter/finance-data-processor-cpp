@@ -1,0 +1,338 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "clang-tools@21.1.2": {
+      "last_modified": "2025-10-22T20:59:19Z",
+      "resolved": "github:NixOS/nixpkgs/01b6809f7f9d1183a2b3e081f0a1e6f8f415cb09#clang-tools",
+      "source": "devbox-search",
+      "version": "21.1.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5fcvmwa7j5d7fc4sfiswfq3jd41dz3bn-clang-tools-21.1.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/5fcvmwa7j5d7fc4sfiswfq3jd41dz3bn-clang-tools-21.1.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vv9scs34xn4dig0r3bgpgckcdpnak1z5-clang-tools-21.1.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/vv9scs34xn4dig0r3bgpgckcdpnak1z5-clang-tools-21.1.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/q6mg372czqy68ayvq1w3aina9vq1b93d-clang-tools-21.1.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/q6mg372czqy68ayvq1w3aina9vq1b93d-clang-tools-21.1.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7l6wv859y0clr9xaql2v5ryw53ds8wzq-clang-tools-21.1.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/7l6wv859y0clr9xaql2v5ryw53ds8wzq-clang-tools-21.1.2"
+        }
+      }
+    },
+    "clang@21.1.2": {
+      "last_modified": "2025-10-22T20:59:19Z",
+      "resolved": "github:NixOS/nixpkgs/01b6809f7f9d1183a2b3e081f0a1e6f8f415cb09#clang",
+      "source": "devbox-search",
+      "version": "21.1.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xbi504848gn164lwzv2x2rclwvjxw7w1-clang-wrapper-21.1.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/xbi504848gn164lwzv2x2rclwvjxw7w1-clang-wrapper-21.1.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9vygb66ix1yzlk9c7fa5lb0zlvf556by-clang-wrapper-21.1.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9vygb66ix1yzlk9c7fa5lb0zlvf556by-clang-wrapper-21.1.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/kihcn1ppp1bi8gv7hncwkaalyjx3lzdz-clang-wrapper-21.1.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/kihcn1ppp1bi8gv7hncwkaalyjx3lzdz-clang-wrapper-21.1.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/al7l1c2nwk9c9cicp3l7jfjxi1vilp93-clang-wrapper-21.1.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/al7l1c2nwk9c9cicp3l7jfjxi1vilp93-clang-wrapper-21.1.2"
+        }
+      }
+    },
+    "cmake@4.1.2": {
+      "last_modified": "2025-10-22T20:59:19Z",
+      "resolved": "github:NixOS/nixpkgs/01b6809f7f9d1183a2b3e081f0a1e6f8f415cb09#cmake",
+      "source": "devbox-search",
+      "version": "4.1.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/g1ck4iddb7q6f5qm8pa3qqss6dp3gjlm-cmake-4.1.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/g1ck4iddb7q6f5qm8pa3qqss6dp3gjlm-cmake-4.1.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/wwxllnq886443diryrcxkca6b6cmn7f7-cmake-4.1.2",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/7h913kgsf5mqba39r2a2npbd9fwcs5q3-cmake-4.1.2-debug"
+            }
+          ],
+          "store_path": "/nix/store/wwxllnq886443diryrcxkca6b6cmn7f7-cmake-4.1.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/06i0k56x3asszhsgwjrc1rngq0h163mx-cmake-4.1.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/06i0k56x3asszhsgwjrc1rngq0h163mx-cmake-4.1.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5bn5f4ivqf4xn19khh4kcg4ngnjs6spg-cmake-4.1.2",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/6xgz1k0maw0pf5jmnrpfrir9zzk9bxmj-cmake-4.1.2-debug"
+            }
+          ],
+          "store_path": "/nix/store/5bn5f4ivqf4xn19khh4kcg4ngnjs6spg-cmake-4.1.2"
+        }
+      }
+    },
+    "conan@2.21.0": {
+      "last_modified": "2025-10-28T12:57:11Z",
+      "resolved": "github:NixOS/nixpkgs/e99366c665bdd53b7b500ccdc5226675cfc51f45#conan",
+      "source": "devbox-search",
+      "version": "2.21.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/lzh4j2ly630rkvfi2i7mp3kyxwzizgxn-conan-2.21.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/9a0klp5mjsk00nb50kzj0ib684xdfqj5-conan-2.21.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/lzh4j2ly630rkvfi2i7mp3kyxwzizgxn-conan-2.21.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ky7vzx750s7swdah0ycj49w4vnvidl4l-conan-2.21.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/kgvw5lyryf6awybm1dznmjnfv884nhh4-conan-2.21.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/ky7vzx750s7swdah0ycj49w4vnvidl4l-conan-2.21.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/fhhar5qpgdgqd9phiz813qicrkvrda2h-conan-2.21.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/g34y0bqclksz3w5mb7vjdcyly8zvnmka-conan-2.21.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/fhhar5qpgdgqd9phiz813qicrkvrda2h-conan-2.21.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ds5wag4j0ha1d0w48wsncjzzai546n0m-conan-2.21.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/hz5zkni9wxszl3cl52ahwvqfhg8jwmj1-conan-2.21.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/ds5wag4j0ha1d0w48wsncjzzai546n0m-conan-2.21.0"
+        }
+      }
+    },
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2025-10-13T09:56:54Z",
+      "resolved": "github:NixOS/nixpkgs/c12c63cd6c5eb34c7b4c3076c6a99e00fcab86ec?lastModified=1760349414&narHash=sha256-W4Ri1ZwYuNcBzqQQa7NnWfrv0wHMo7rduTWjIeU9dZk%3D"
+    },
+    "go-task@latest": {
+      "last_modified": "2025-10-22T20:59:19Z",
+      "resolved": "github:NixOS/nixpkgs/01b6809f7f9d1183a2b3e081f0a1e6f8f415cb09#go-task",
+      "source": "devbox-search",
+      "version": "3.45.4",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mj7zghvnya1rl3gw3l8ll91qah5v9rxv-go-task-3.45.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/mj7zghvnya1rl3gw3l8ll91qah5v9rxv-go-task-3.45.4"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2rvk0icfridcj5035f0n05bbgs30y5pb-go-task-3.45.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/2rvk0icfridcj5035f0n05bbgs30y5pb-go-task-3.45.4"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3n1f9c46z5vkvybghn9mp56iccxqghg6-go-task-3.45.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/3n1f9c46z5vkvybghn9mp56iccxqghg6-go-task-3.45.4"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/sbhyd09c4nsdlg62mp4g4d6z0hga6f9z-go-task-3.45.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/sbhyd09c4nsdlg62mp4g4d6z0hga6f9z-go-task-3.45.4"
+        }
+      }
+    },
+    "poetry@latest": {
+      "last_modified": "2025-11-26T06:22:50Z",
+      "plugin_version": "0.0.4",
+      "resolved": "github:NixOS/nixpkgs/bb813de6d2241bcb1b5af2d3059f560c66329967#poetry",
+      "source": "devbox-search",
+      "version": "2.2.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/sfsxq068qvwpq7vwb0743m7isk7mbhwv-python3.13-poetry-2.2.1",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/4yfah728gxi2p5gmn5mb5civh5cd3pi7-python3.13-poetry-2.2.1-dist"
+            }
+          ],
+          "store_path": "/nix/store/sfsxq068qvwpq7vwb0743m7isk7mbhwv-python3.13-poetry-2.2.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jaah5kv576z0i6sl8zcjxwnd1nf8xhqm-python3.13-poetry-2.2.1",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/jn3mq4ccbvpnhgiki3n9q2pl3wsllhzr-python3.13-poetry-2.2.1-dist"
+            }
+          ],
+          "store_path": "/nix/store/jaah5kv576z0i6sl8zcjxwnd1nf8xhqm-python3.13-poetry-2.2.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/aj5kr9p7d7skbacqkk949yk1s9axxka2-python3.13-poetry-2.2.1",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/w6ipm3dpg44xcfks78n2iqdg5mq51n4d-python3.13-poetry-2.2.1-dist"
+            }
+          ],
+          "store_path": "/nix/store/aj5kr9p7d7skbacqkk949yk1s9axxka2-python3.13-poetry-2.2.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jgi0jzxlm08qk7vnx1w3wmhyn4cchf47-python3.13-poetry-2.2.1",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/mmhq14nsa1vqkw4rqr7lcbhvih3fm4nk-python3.13-poetry-2.2.1-dist"
+            }
+          ],
+          "store_path": "/nix/store/jgi0jzxlm08qk7vnx1w3wmhyn4cchf47-python3.13-poetry-2.2.1"
+        }
+      }
+    }
+  }
+}

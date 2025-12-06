@@ -1,0 +1,13 @@
+{
+  "testMate.cpp.debug.configTemplate": {
+    "type": "lldb",
+    "MIMode": "lldb",
+    "program": "${exec}",
+    "args": "${argsArray}",
+    "cwd": "${cwd}",
+    "env": "${envObj}",
+    "sourceFileMap": "${sourceFileMapObj}",
+    "externalConsole": false
+  }
+}
+

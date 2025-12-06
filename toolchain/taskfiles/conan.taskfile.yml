@@ -1,0 +1,14 @@
+version: '3'
+
+tasks:
+  install:*:
+    desc: Install dependencies for a build [release|debug]
+    vars:
+      BUILD_TYPE:
+        sh: 'if [ {{index .MATCH 0}} == "release" ]; then echo "Release"; else echo "Debug"; fi'
+    cmds:
+      - |
+        conan install conan/ \
+        --output-folder=${PROJECT_ROOT}/build \
+        --build=missing \
+        --settings=build_type={{ .BUILD_TYPE }}
