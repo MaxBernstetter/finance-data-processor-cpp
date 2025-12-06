@@ -1,0 +1,3 @@
+[submodule "finance-proto-models"]
+	path = finance-proto-models
+	url = https://github.com/MaxBernstetter/finance-proto-models.git
